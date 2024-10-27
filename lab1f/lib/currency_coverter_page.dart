@@ -88,7 +88,7 @@ class CustomTextButton extends StatelessWidget {
       },
       style: const ButtonStyle(
         backgroundColor:  WidgetStatePropertyAll<Color>(Color.fromARGB(122, 132, 142, 142)),
-        foregroundColor: WidgetStatePropertyAll<Color>(Color.fromARGB(122, 132, 142, 142)),
+        foregroundColor: WidgetStatePropertyAll<Color>(Color.fromARGB(122, 132, 142, 142)),  
         fixedSize: WidgetStatePropertyAll<Size>(Size(100, 50)),
       ),
       child: const Text(
